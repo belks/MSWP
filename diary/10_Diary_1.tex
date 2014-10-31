@@ -1,0 +1,57 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage[utf8]{inputenc}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+% \usepackage{mathptmx} % Times New Roman
+
+\setlength{\topmargin}{-0.4mm} % (1in=25.4mm)-0.4mm=25mm
+\setlength{\textheight}{243.119mm} % 297mm-40mm-10mm-(11pt=3.881mm)=
+\setlength{\oddsidemargin}{-0.4mm} % (1in=25.4mm)-0.4mm=25mm
+\setlength{\textwidth}{160mm} % 210mm-50mm=160mm
+\setlength{\headheight}{0mm}
+\setlength{\headsep}{0mm}
+\setlength{\footskip}{15mm}
+
+\providecommand*{\note}[1]{\small \textcolor{RoyalBlue}{\begin{minipage}{\textwidth}{#1}\end{minipage}}}
+
+% --------------------------------------------------------------
+
+\providecommand*{\ShortTitle}{WaveMeIn}
+\providecommand*{\FullTitle}{Projektprotokoll}
+\providecommand*{\includeWiki}[1]{\wikiEnvironments \include{#1}\nowikiEnvironments}
+
+% --------------------------------------------------------------
+
+\title{\textbf{\sffamily\Huge \ShortTitle}\\ 
+{\textbf{\sffamily\Large \FullTitle}}
+\vspace{1cm}}
+
+\author{
+{\em 188.407: Management von Software Projekten} \vspace{1cm} \\
+Group: 10\bigskip \\
+Belk Stefan \\ {\small 0750926, 937, \href{mailto:belk.stefan@gmail.com}{belk.stefan@gmail.com}}\\
+Petz Thomas \\ {\small 0601280, 937, \href{mailto:e0601280@student.tuwien.ac.at}{e0601280@student.tuwien.ac.at}}\\
+Causevic Alma \\ {\small 0847805, 534, \href{mailto:alma.causevic@hotmail.com}{alma.causevic@hotmail.com}}\\ 
+Causevic Amra  \\ {\small 0649241, 534, \href{mailto:amra.causevic@hotmail.com}{amra.causevic@hotmail.com}}\\ 
+Seebacher David \\ {\small 0327243, 534, \href{mailto:david.seebacher@student.tuwien.ac.at}{david.seebacher@student.tuwien.ac.at}}\\
+\vspace{4cm}
+}
+
+\begin{document}
+
+\begin{titlepage}
+\maketitle
+
+\end{titlepage}
+
+% --------------------------------------------------------------
+
+%\input{diary/28.10.md}
+%\input{diary/31.10.md}
+\input{diary_bundle.tex}
+\end{document}
