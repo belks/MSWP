@@ -21,8 +21,8 @@
 
 % --------------------------------------------------------------
 
-\providecommand*{\ShortTitle}{$<$Short title$>$}
-\providecommand*{\FullTitle}{$<$Full title$>$}
+\providecommand*{\ShortTitle}{WaveMeIn}
+\providecommand*{\FullTitle}{WaveMeIn: Authentication via Brain Waves}
 
 % --------------------------------------------------------------
 
@@ -86,28 +86,31 @@ Seebacher David \\ {\small 0327243, 534, \href{mailto:david.seebacher@student.tu
 % --------------------------------------------------------------
 \section{Synopsis}
 \label{sect:synopsis}
+\subsection{The Project Idea:}
+WaveMeIn is a research project to create a new type of secure login mechanism based on brain waves. 
 
-\note{
+At the time of this proposal the most used ways for authentication are manually typed passwords or biometric authentication methods. However all of the previous methods have some security problems or are simply not user-friendly. Typed passwords are easy to spy out simply by looking at the keyboard of the user or the traces of the fingers on touch displays. In the case of biometric authentication, there are for example face recognition, iris or fingerprint scans. Face recognition software can easily be tricked by face masks or photographs and moreover depends on good light conditions, the quality of the images of the web camera and other factors. Fingerprint and iris scans are the most secure options of the authentication methods mentioned before. However they also have many disadvantages. Iris scans are not practical since the hardware required cannot easily be integrated into small devices and it is not user-friendly to require the user to place his eye very close to the scanner every time he/she wants to unlock a device. Fingerprint sensors are known to fail to recognize the fingerprint correctly quite often and it is also a not very user-friendly authentication method for handicapped people that may not reach the sensor or may not have any fingers at all. 
+
+Brain waves are a secure and user-friendly alternative authentication method. The idea is to create a small device, called Wavy, that can be worn at the ear of the user in the same style as bluetooth headsets are already worn for communication today. The Wavy measures the brain waves near the ear in case a login is required by a client device that is connected via bluetooth. It listens for a brain wave pattern that was previously trained by the user as a password. If the correct pattern was detected by the Wavy it transmits a OK signal back to the client device. 
+
+\subsection{Why should somebody care?}
+Nowadays people are forced to type their passwords in public places which is a security risk and also not a very efficient way for authentication. Especially when typing in password on small devices such as mobile phones this authentication method is also very error prone due to the small keyboard interfaces. On the one side people are lazy and do not want to remember and enter long and complicated passwords, but on the other side they are also concerned about the security of their data and their privacy. So the users are in need of a more secure and easier way of authentication.
+
+\subsection{Who are the beneficiaries of the results?}
+Basically everybody can benefit from the WaveMeIn project since it is usable in the daily life. Especially for handicapped people it is a new and more easy to use option to log into their devices. Also it grants a higher level of security than existing authentication methods so it is also well suited for environments where higher security is needed, such as access authentication is modern research labs and government or military facilities.
+
+For our product to succeed, we need to invest into research in the area of brain wave detection and analysis. This investment can improve our understanding of this topic. After a commercial success, we have to enhance our product. This means we have to invest further into brain wave research. On the other side, we can make our world more secure. It makes hacking of accounts and password fraud more complicated.
+
+\subsection{Problem classification}
+The task of detecting brain waves it tightly connected to the research areas of Neuroscience, Pattern Recognition and Machine Learning. In the field of Neuroscience it touches the areas of not invasive brain computer interfaces and neural oscillation. Since detecting and reliably identifying brain waves at the location near the ears is still technically immature the project can be seen as basic research in this area. The following research questions have to be answered before a prototype can be developed.
 \begin{itemize}
-	\item {\em Length: 1-2 pages}
-	\item Concise presentation of the scientific proposal, with particular attention to the ground-breaking nature of the research project, which will allow to assess the feasibility of the outlined scientific approach. 
-	\item WHY would you like to do WHAT, HOW would you like to do it and what are the expected RESULTS?
-	\item Short description of project idea.
-	\item Short description of problem / situation.
-	\item What makes it an interesting endeavor?
-	\item Why should somebody care?
-	\item Very short cost-benefit description (what are potential benefits that make them worth the costs of the project?).
-	\item Who are the beneficiaries of the results?
-	\item Problem classification (to which scientific area does the project belong?; is it basic or applied research?)
-	\item Constraints
-	\begin{itemize}
-		\item     The project must have an extent that demands to handle it as a project including project organization.  (No 2 person pieces; no 150 person-year efforts)
-		\item     Software development should be part of the project. (But not its only content or scientific contribution.)
-		\item     The project should be interesting and meaningful.
-		\item     {\em Your creativity is called for!!}
-	\end{itemize}
+	\item Detecting braves at the ears
+	\item Recognize brain wave patters
+	\item Distinguish correct patterns from random signals
+	\item Distinguish brain waves from different users
 \end{itemize}
-}
+On the other hand if we take the Wavy into account, which should be the resulting product, this project is also an applied research project. It further touches the fields of computer security and privacy.
+
 
 % --------------------------------------------------------------
 \section{Introduction and problem description}
