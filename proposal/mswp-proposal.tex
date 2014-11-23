@@ -117,43 +117,74 @@ On the other hand if we take the Wavy into account, which should be the resultin
 % --------------------------------------------------------------
 \section{Introduction and problem description}
 \label{sect:intro}
+WaveMeIn is a research project to show the potential of brain waves a new method of electronic authentication via a small wearable device. Its aim is to investigate the usage of rain waves to replace passwords or other authentication methods. Therefore the properties of brain waves regarding uniqueness and reliability have to be explored. The project shall demonstrate via a small prototype that the recognition is possible without large sensors on top of the users head. A requirement for such a method of authentication clearly exists as demonstrated by the following use cases:
 
-\note{
+\subsection{Current Situation}
+
+
+\subsection{Use Case 1}{
+Assume a user needs to log on to a device (e.g. a notebook) that contains sensitive information in public. Typing in the password is not an option as it can easily be monitored by another person. Fingerprints are also not a good alternative as they can easily be taken from any surface the user touched and be copied onto synthetic materials to deceive the fingerprint reader. Brain waves are (as of current knowledge) unique for each person even if two people are having exactly the same thought. If the intruder does not know the precise brain wave pattern of the user's pass phrase/thought it is impossible to duplicate.}
+
+\subsection{Use Case 2}{
+Assume an average user wants to unlock his/her smart phone in a crowded area such as the subway. Nowadays this is done by entering a pin or drawing a pattern on the screen. A person with the intention to steal a users phone just needs to observe its victim while entering the pass code or pattern. Afterwards it is easy to unlock the phone and steal the victims personal data or cause large costs while using it for phone calls and mobile data. Locking the phone via a brain wave authentication mechanism may not prevent the theft but the costs arising from the phone being used afterwards.}
+
+\subsection{Current Authentication Methods}
+In theory brain waves will be rank among the most secure authentication methods, probably being the most secure one if the research proves successful. The particular brain wave of a user required to unlock a device can not be easily be obtained other than strapping the user to a chair and forcing him/her to think his/her pass thought. Other authentication methods are password, drawing patterns, fingerprint, iris scan, voice recognition. Passwords and pattern drawing are the least secure ones as the user can be observed while typing or drawing without much effort. Fingerprint, iris scan, voice recognition may require more technical or social effort to obtain, but in the end all of them are features of a person that are always visible for the outside world and therefore copyable with more or less effort.
+
+\subsection{Unresolved Problems and Opportunities}
+The unknown factor of this research project is that no research has been done on measuring brain waves at other locations (e.g. the ears) of the body except directly at the users head. Additionally it is unknown if the brain waves of are person are distinctive enough to distinguish a pass thought of a user from other thoughts and if the brain waves of different users while thinking the same thought are distinctive enough.
+
+At the time of writing this proposal there exists no device that is capable of the features mentioned above as well as being small enough to be worn as an accessory. Therefore this is an important area of research with practical future applications.
+
+\subsection{Terms}
 \begin{itemize}
-	\item {\em Length: 2-3 pages}
-	\item {\bf Why?}
-	\item Introduction
-	\item Context
-	\item What is the current situation?
-	\item What is the open/unresolved problem or opportunity?
-	\item Why is it a problem?
-	\item What is unknown?
-	\item What could be improved?
-	\item Explanation of fundamental terms and basic definitions.
+	\item 
+	\item Brain waves:
+	\item
 \end{itemize}
-}
 
 % --------------------------------------------------------------
 \section{Project goals and deliverables}
 \label{sect:goals}
-
-\note{
+The following sections will provide an overview over the research questions and hardware questions associated with the project.
+\subsection{Research questions}
 \begin{itemize}
-	\item {\em Length: 1-2 pages}
-	\item What is the goal of the project?
-	\item Research questions
-	\begin{itemize}
-		\item 	    What are the hypotheses that are to be investigated?
-		\item 	    Main hypothesis \& sub hypotheses
-	\end{itemize}
-	\item Which results should be achieved with the project?
-	\begin{itemize}
-	    	\item 	   What will be known afterwards that is not known now?
-		\item	    What will be created that does not exist now?
-	\end{itemize}
-	\item Non-goals (What will not be part of the project? What will not be done?)
+	\item How can be brain waves be detected by the a small device at a single location?
+	\item How reliable is the detection of individual brain waves of the same person?
+	\item How reliable is unique identification of the brain waves of different persons?
+	\item Is it possible to detect brain waves at other body locations than the head?
 \end{itemize}
-}
+
+\subsection{Hardware Design}
+\begin{itemize}
+	\item How can the required hardware be minimized to be small and practical (Wavy Device)?
+	\item Are the existing sensors for measuring rain waves good enough for the projects requirements?
+\end{itemize}
+
+\subsection{Expected Results}
+\begin{itemize}
+	\item Successful research on the identification of brain waves.
+	\item Algorithms to reliably identify brain wave patterns.
+	\item Creation of a small prototype device capable of reading brain waves.
+\end{itemize}
+
+At the end of the project it should be clear if:
+\begin{itemize}
+	\item The detection of brain waves is possible at different locations of the body.
+	\item The same thought produces a repeatable and reliable brainwave pattern. (Reliability)
+	\item Different people have different patterns when thinking the same thought. (Uniqueness)
+	\item Brain waves can be used as authentication method.
+	\item The necessary can e integrated into a small device.
+\end{itemize}
+
+\subsection{Non-Goals}
+\begin{itemize}
+	\item No mind reading device
+	\item No client software (just the brain wave research, hardware and interface)
+	\item No design or usability study (just a prototype that works and is small enough)
+	\item No end-user/consumer product (just a prototype)
+\end{itemize}
+
 
 % --------------------------------------------------------------
 \section{Scientific relevance and innovative aspects}
