@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:model="http://www.2b-intime.com/model" name="WaveMeIn" context="manual" UUID="_jLKe8Hb8EeSj5c5_SF-jSA" startDate="2015-01-05T08:00:16.274+0100">
+  <maps type="net.intime.crud.xml.map.path">
+    <entries key="path" value="WaveMeIn"/>
+  </maps>
+  <maps type="manual">
+    <entries key="net.intime.product.mapentry.standardWorkPackageType" value="2"/>
+  </maps>
+  <calendar context="manual" UUID="_jL4QoHb8EeSj5c5_SF-jSA"/>
+</model:Project>
