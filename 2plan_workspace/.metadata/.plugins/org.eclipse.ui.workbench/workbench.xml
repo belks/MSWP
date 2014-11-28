@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="7" version="2.0">
+<workbenchAdvisor/>
+<window height="600" maximized="true" width="800" x="0" y="24">
+<fastViewData fastViewLocation="16384"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem itemType="typeToolBarContribution" x="146" y="28"/>
+<coolItem id="net.intime.dropdown.toolbar2" itemType="typeToolBarContribution" x="74" y="28"/>
+<coolItem id="net.intime.product.ui.main.toolbar" itemType="typeToolBarContribution" x="302" y="28"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.annotationNavigation" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.navigation" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page focus="true" label="&lt;Unbekanntes Anzeigenobjekt&gt; - Willkommen">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</editorArea>
+</editors>
+<views>
+<view id="net.intime.product.view.navigator" partName="Projekt Explorer">
+<viewState/>
+</view>
+<view id="net.intime.product.view.businessObjectEditor" partName="Objekt Editor">
+<viewState/>
+</view>
+<view id="net.intime.product.view.welcome" partName="Willkommen">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="net.intime.product.view.navigator" activePerspective="net.intime.product.perspective.welcome">
+<perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
+<descriptor class="net.intime.product.BasePerspectiveFactory" id="net.intime.product.perspective.welcome" label="Willkommen"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<perspective_action id="net.intime.product.perspective.wbs"/>
+<perspective_action id="net.intime.product.perspective.planning"/>
+<perspective_action id="net.intime.product.perspective.controlling"/>
+<perspective_action id="net.intime.product.perspective.reporting"/>
+<perspective_action id="net.intime.product.perspective.setup"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="net.intime.product.view.navigator"/>
+<view id="net.intime.product.view.welcome"/>
+<view id="net.intime.product.view.businessObjectEditor"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@444e02fe">
+<folder activePageID="net.intime.product.view.navigator" appearance="2" expanded="2">
+<page content="net.intime.product.view.navigator" label="Projekt Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="567" ratioRight="189" relationship="2" relative="org.eclipse.ui.internal.ViewStack@444e02fe">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="189" ratioRight="567" relationship="2" relative="org.eclipse.ui.internal.ViewStack@444e02fe"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@5da694ba" ratio="0.7495591" ratioLeft="425" ratioRight="142" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="net.intime.product.view.businessObjectEditor" appearance="2" expanded="2">
+<page content="net.intime.product.view.welcome" label="Willkommen"/>
+<page content="net.intime.product.view.businessObjectEditor" label="Objekt Editor"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory/>
+</page>
+<workbenchWindowAdvisor size_x="1372" size_y="724"/>
+<actionBarAdvisor activeProject="WaveMeIn"/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList/>
+</workbench>
