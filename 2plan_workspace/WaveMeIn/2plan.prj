@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:model="http://www.2b-intime.com/model" name="WaveMeIn" context="manual" UUID="_jLKe8Hb8EeSj5c5_SF-jSA" startDate="2015-01-05T08:00:16.274+0100">
+<model:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:model="http://www.2b-intime.com/model" name="WaveMeIn" context="manual" UUID="_jLKe8Hb8EeSj5c5_SF-jSA" startDate="2015-01-05T00:00:00.000+0100" finishDate="2018-01-05T08:00:29.278+0100" budget="1000000.0" manager="//@persons.0">
   <maps type="net.intime.crud.xml.map.path">
     <entries key="path" value="WaveMeIn"/>
   </maps>
@@ -7,4 +7,47 @@
     <entries key="net.intime.product.mapentry.standardWorkPackageType" value="2"/>
   </maps>
   <calendar context="manual" UUID="_jL4QoHb8EeSj5c5_SF-jSA"/>
+  <workPackages name="WP 1" context="manual" UUID="_lWaPoHpLEeSQxJrhwwtpng" description="Basic Research" milestoneAssignment="Start after" type="manual" startDate="2014-12-02T19:44:03.804+0100" finishDate="2014-12-03T00:00:00.000+0100" milestone="//@milestones.3">
+    <workPackages name="WP 1.1" context="manual" UUID="_m07cEHpLEeSQxJrhwwtpng" description="Reliable thought identification" type="manual" startDate="2014-12-02T19:44:03.804+0100" finishDate="2014-12-02T19:44:03.804+0100"/>
+    <workPackages name="WP 1.2" context="manual" UUID="_88izcHpLEeSQxJrhwwtpng" description="Confirm uniqueness of a person's brain wave pattern" type="manual" startDate="2014-12-02T19:44:03.804+0100" finishDate="2014-12-02T19:44:03.804+0100"/>
+    <workPackages name="WP 1.3" context="manual" UUID="__uJYYHpLEeSQxJrhwwtpng" description="Identify methods to measure brain waves from different head parts" type="manual" startDate="2014-12-02T19:44:03.804+0100" finishDate="2014-12-02T19:44:03.804+0100"/>
+    <workPackages name="WP 1.4" context="manual" UUID="_BmtcgHpMEeSQxJrhwwtpng" description="Survey of the technical state of the art for sensors from brain wave detection" type="manual" startDate="2014-12-02T19:44:03.804+0100" finishDate="2014-12-02T19:44:03.804+0100"/>
+  </workPackages>
+  <workPackages name="WP 2" context="manual" UUID="_sRa58HpLEeSQxJrhwwtpng" description="Hard- and Software Development" milestoneAssignment="Start after" type="manual" startDate="2014-12-02T19:44:03.804+0100" finishDate="2014-12-03T00:00:00.000+0100" milestone="//@milestones.0">
+    <workPackages name="WP 2.1" context="manual" UUID="_uSZ6QHpLEeSQxJrhwwtpng" description="Reviewing for existing algorithms for detecting patterns in measured brain waves" type="manual" startDate="2014-12-02T19:44:03.804+0100" finishDate="2014-12-02T19:44:03.804+0100"/>
+    <workPackages name="WP 2.2" context="manual" UUID="_4762oHpLEeSQxJrhwwtpng" description="Develop new algorithms for detecting patterns in measured brain waves" type="manual" startDate="2014-12-02T19:44:03.804+0100" finishDate="2014-12-02T19:44:03.804+0100"/>
+    <workPackages name="WP 2.4" context="manual" UUID="_D6HCgHpMEeSQxJrhwwtpng" description="Develop a microcontroller for the Wavy" type="manual" startDate="2014-12-02T19:44:03.804+0100" finishDate="2014-12-02T19:44:03.804+0100"/>
+    <workPackages name="WP 2.5" context="manual" UUID="_GOYLMHpMEeSQxJrhwwtpng" description="Sensor minimizing" type="manual" startDate="2014-12-02T19:44:03.804+0100" finishDate="2014-12-02T19:44:03.804+0100"/>
+    <workPackages name="WP 2.3" context="manual" UUID="_ONR7cHpMEeSQxJrhwwtpng" description="Defne the communication protocol and interface of the Wavy" type="manual" startDate="2014-12-02T19:44:03.804+0100" finishDate="2014-12-02T19:44:03.804+0100"/>
+  </workPackages>
+  <workPackages name="WP 3" context="manual" UUID="_MmNP8HpMEeSQxJrhwwtpng" description="Prototype Development" milestoneAssignment="Start after" type="manual" startDate="2014-12-02T19:44:03.804+0100" finishDate="2014-12-03T00:00:00.000+0100" milestone="//@milestones.1">
+    <workPackages name="WP 3.1" context="manual" UUID="_PxijgHpMEeSQxJrhwwtpng" description="Create the Wavy prototype " type="manual" startDate="2014-12-02T19:44:03.804+0100" finishDate="2014-12-02T19:44:03.804+0100"/>
+    <workPackages name="WP 3.2" context="manual" UUID="_TVkq8HpMEeSQxJrhwwtpng" description="Write a demo software " type="manual" startDate="2014-12-02T19:44:03.804+0100" finishDate="2014-12-02T19:44:03.804+0100"/>
+    <workPackages name="WP 3.3" context="manual" UUID="_VOnQMHpMEeSQxJrhwwtpng" description="Compare with existing authentication methods" type="manual" startDate="2014-12-02T19:44:03.804+0100" finishDate="2014-12-02T19:44:03.804+0100"/>
+  </workPackages>
+  <persons name="Project Manager" context="manual" UUID="_OGFR0HpNEeSQxJrhwwtpng" initials="PM">
+    <costRates name="-" context="manual" UUID="_OVpX0HpNEeSQxJrhwwtpng"/>
+  </persons>
+  <persons name="Software Engineer" context="manual" UUID="_UdNzAHpNEeSQxJrhwwtpng" initials="SE">
+    <costRates name="-" context="manual" UUID="_YQBWQHpNEeSQxJrhwwtpng"/>
+  </persons>
+  <persons name="Researcher Human-Computer-Interface" context="manual" UUID="_PYPn0HpOEeSQxJrhwwtpng" initials="RHCI">
+    <costRates name="-" context="manual" UUID="_PlpKoHpOEeSQxJrhwwtpng"/>
+  </persons>
+  <persons name="Researcher Neuroscience" context="manual" UUID="_WlSdUHpOEeSQxJrhwwtpng" initials="RN">
+    <costRates name="-" context="manual" UUID="_W4ZmkHpOEeSQxJrhwwtpng"/>
+  </persons>
+  <persons name="Electrical Engineer" context="manual" UUID="_zfVKwHpOEeSQxJrhwwtpng" initials="EE">
+    <costRates name="-" context="manual" UUID="_ztb4MHpOEeSQxJrhwwtpng"/>
+  </persons>
+  <milestones name="Research Part Completed" context="manual" UUID="_xR_UAHpPEeSQxJrhwwtpng" date="2016-01-05T08:00:47.346+0100"/>
+  <milestones name="Hardware Part Completed" context="manual" UUID="_yP674HpPEeSQxJrhwwtpng" date="2017-01-05T08:00:03.940+0100"/>
+  <milestones name="Prototype  Develpment Completed" context="manual" UUID="_ys3WkHpPEeSQxJrhwwtpng" date="2018-01-05T08:00:34.872+0100"/>
+  <milestones name="Project Start" context="manual" UUID="_zJtDkHpPEeSQxJrhwwtpng" date="2015-01-05T08:00:01.300+0100"/>
+  <milestones name="Meilenstein" context="manual" UUID="_zkaCkHpPEeSQxJrhwwtpng"/>
+  <milestones name="Meilenstein" context="manual" UUID="_0EpB0HpPEeSQxJrhwwtpng"/>
+  <milestones name="Meilenstein" context="manual" UUID="_0ocScHpPEeSQxJrhwwtpng"/>
+  <milestones name="Meilenstein" context="manual" UUID="_1HQ8cHpPEeSQxJrhwwtpng"/>
+  <milestones name="Meilenstein" context="manual" UUID="_1vA48HpPEeSQxJrhwwtpng"/>
+  <milestones name="Meilenstein" context="manual" UUID="_2LMeoHpPEeSQxJrhwwtpng"/>
 </model:Project>
